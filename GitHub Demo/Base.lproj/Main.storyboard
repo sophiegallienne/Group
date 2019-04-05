@@ -18,17 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pixel Butterfly OP" translatesAutoresizingMaskIntoConstraints="NO" id="YSN-O3-nZf">
-                                <rect key="frame" x="0.0" y="28" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pixel Butterfly OPV2" translatesAutoresizingMaskIntoConstraints="NO" id="ddq-xf-sB3">
+                                <rect key="frame" x="0.0" y="29" width="375" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="YSN-O3-nZf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0XL-RI-A5u"/>
-                            <constraint firstItem="YSN-O3-nZf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-36" id="ekl-NN-nSG"/>
-                            <constraint firstAttribute="trailing" secondItem="YSN-O3-nZf" secondAttribute="trailing" id="hxq-lf-hq6"/>
-                            <constraint firstItem="YSN-O3-nZf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="28" id="mpJ-6X-eXl"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="diD-sH-PJQ"/>
@@ -57,6 +52,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pixel Butterfly OP" width="1125" height="2436"/>
+        <image name="Pixel Butterfly OPV2" width="1125" height="2436"/>
     </resources>
 </document>
