@@ -19,16 +19,16 @@ class ViewController: UIViewController {
 
 class SecondViewController: UIViewController {
     
-   
+   //connect the UIImageView Outlet here (which will fix some errors below)
     
     imageView.delegate = self
     
     
 }
 
-override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     let vc = segue.destination as! SecondViewController
-    vc.annotation = sender as? CustomAnnotation
+    vc.annotation = sender as? Characters
     
 }
 

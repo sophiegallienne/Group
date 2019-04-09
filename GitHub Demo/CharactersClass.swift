@@ -2,7 +2,7 @@ import Foundation
 
 class Characters {
     
-    var characters = [customAnnotation] ()
+    var characters = [Characters] ()
     
     init  ()
     

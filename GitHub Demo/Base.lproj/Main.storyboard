@@ -53,7 +53,7 @@
                         <outlet property="StartButton" destination="XeQ-rX-PVo" id="M9o-Ku-EuC"/>
                         <outlet property="leaderboardButton" destination="PH0-X8-1MV" id="Eff-S3-H8z"/>
                         <outlet property="startButton" destination="XeQ-rX-PVo" id="s5t-TR-TgX"/>
-                        <segue destination="WFS-Zp-1G8" kind="show" id="XcW-ph-K0F"/>
+                        <segue destination="WFS-Zp-1G8" kind="show" identifier="Next" id="XcW-ph-K0F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
