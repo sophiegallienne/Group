@@ -12,4 +12,12 @@ protocol ThirdViewControllerDelegate {
     
 }
 
-class ThirdViewController: 
+class ThirdViewController: UIViewController {
+    
+    var delegate: ThirdViewControllerDelegate?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}
