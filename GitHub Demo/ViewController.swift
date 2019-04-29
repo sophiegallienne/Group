@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
         
 
-    }
+}
 
 extension ViewController: DungeonViewControllerDelegate {
     
@@ -30,6 +30,6 @@ extension ViewController: VillageViewControllerDelegate {
 }
 
 
-
+extension ViewController: EndScreenViewControllerDelegate {
     
 }
