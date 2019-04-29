@@ -1,5 +1,6 @@
 import Foundation
 import UIKit
+import Firebase
 
 class Question {
     var Question: String!

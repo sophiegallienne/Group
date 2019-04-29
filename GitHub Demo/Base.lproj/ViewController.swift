@@ -8,6 +8,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "DungeonViewController"
         { viewController = segue.destination as! DungeonViewController }
+
     }
     performSegue(withIdentifier: "DungeonViewController", sender: nil)
 }

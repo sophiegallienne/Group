@@ -1,5 +1,6 @@
 import UIKit
 import Firebase
+import UIKit
 
 
 
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
     }
         
 
-    }
+}
 
 extension ViewController: DungeonViewControllerDelegate {
     
@@ -33,3 +34,7 @@ extension ViewController: VillageViewControllerDelegate {
 
 
 
+extension ViewController: EndScreenViewControllerDelegate {
+    
+}
+}
