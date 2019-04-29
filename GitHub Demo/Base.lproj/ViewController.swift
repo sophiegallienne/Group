@@ -17,5 +17,3 @@ class ViewController: UIViewController {
 //fuk sake
 // the fucks going on
 //help
-
-//
