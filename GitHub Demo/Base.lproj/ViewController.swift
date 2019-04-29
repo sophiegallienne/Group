@@ -10,7 +10,8 @@ class ViewController: UIViewController {
         
         var Question = [Question]()
         
-        
+        //lowri pls fill in this bit with the narrative bits
+        Question = [Question(""), Answers: "", "", Answer: ""]
     }
 
     override func viewDidLoad() {
