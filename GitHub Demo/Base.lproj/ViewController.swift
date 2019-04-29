@@ -3,6 +3,8 @@ import Firebase
 
 class ViewController: UIViewController {
     
+    
+    
     struct Question {
         var Question: String!
         var Answer :[String]
