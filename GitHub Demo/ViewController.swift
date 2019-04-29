@@ -1,6 +1,8 @@
 import UIKit
 import Firebase
 
+
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var Background: UIImageView!
@@ -30,5 +32,4 @@ extension ViewController: VillageViewControllerDelegate {
 
 
 
-    
-}
+

@@ -9,12 +9,7 @@
 /* Begin PBXBuildFile section */
 		3BB966422276F9DE002ADE88 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */; };
 		620FF2328C64263A8F23EED8 /* Pods_GitHub_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */; };
-		AC8F42112276EFAC00CD3505 /* DungeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42102276EFAC00CD3505 /* DungeonViewController.swift */; };
-		AC8F42132276EFBD00CD3505 /* VillageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42122276EFBD00CD3505 /* VillageViewController.swift */; };
 		E62733A62261EEF300F4F7DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */; };
-		E62733A82261EF4700F4F7DB /* Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62733A72261EF4700F4F7DB /* Pods.swift */; };
-		E664B79A2276F55300BD259E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664B7992276F55300BD259E /* ViewController.swift */; };
-		E664B79C2276FE1300BD259E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664B79B2276FE1300BD259E /* Questions.swift */; };
 		E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68CDBEE2252039900768C9E /* AppDelegate.swift */; };
 		E68CDBF42252039900768C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68CDBF22252039900768C9E /* Main.storyboard */; };
 		E68CDBF62252039B00768C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68CDBF52252039B00768C9E /* Assets.xcassets */; };
@@ -25,19 +20,14 @@
 		3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
 		6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.release.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.release.xcconfig"; sourceTree = "<group>"; };
-		AC8F42102276EFAC00CD3505 /* DungeonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonViewController.swift; sourceTree = "<group>"; };
-		AC8F42122276EFBD00CD3505 /* VillageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillageViewController.swift; sourceTree = "<group>"; };
 		BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.debug.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E62733A72261EF4700F4F7DB /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
+		E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "/Downloads/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
 		E664B7992276F55300BD259E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E664B79B2276FE1300BD259E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		E68CDBEB2252039900768C9E /* GitHub Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68CDBEE2252039900768C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E68CDBF32252039900768C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68CDBF52252039B00768C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68CDBF82252039B00768C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E68CDBFA2252039B00768C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +51,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4366BBDE2277003000E45D37 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */,
+				E68CDBF72252039B00768C9E /* LaunchScreen.storyboard */,
+				E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */,
+				E68CDBF52252039B00768C9E /* Assets.xcassets */,
+				E68CDBF22252039900768C9E /* Main.storyboard */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		97815B409ED79788BEFEDD8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +78,7 @@
 				E68CDBEC2252039900768C9E /* Products */,
 				1CED5B519C8A8DB7C08073F3 /* Pods */,
 				97815B409ED79788BEFEDD8D /* Frameworks */,
+				4366BBDE2277003000E45D37 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +95,6 @@
 			children = (
 				E68CDBEE2252039900768C9E /* AppDelegate.swift */,
 				E664B7992276F55300BD259E /* ViewController.swift */,
-
 			);
 			path = "GitHub Demo";
 			sourceTree = "<group>";
@@ -197,7 +199,6 @@
 			files = (
 				3BB966422276F9DE002ADE88 /* EndScreenViewController.swift in Sources */,
 				E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "GitHub Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "GitHub Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
