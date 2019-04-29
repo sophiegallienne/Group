@@ -27,3 +27,11 @@ class ViewController: UIViewController {
     }
     
 }
+
+extension ViewController: SecondViewControllerDelegate {
+    
+}
+
+extension ViewController: ThirdViewControllerDelegate {
+    
+}
