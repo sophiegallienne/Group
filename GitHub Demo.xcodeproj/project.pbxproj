@@ -12,7 +12,7 @@
 		AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */; };
 		E62733A62261EEF300F4F7DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */; };
 		E62733A82261EF4700F4F7DB /* Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62733A72261EF4700F4F7DB /* Pods.swift */; };
-		E62733AB2261F5D000F4F7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62733A92261F5D000F4F7DB /* ViewController.swift */; };
+		E664B79A2276F55300BD259E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664B7992276F55300BD259E /* ViewController.swift */; };
 		E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68CDBEE2252039900768C9E /* AppDelegate.swift */; };
 		E68CDBF42252039900768C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68CDBF22252039900768C9E /* Main.storyboard */; };
 		E68CDBF62252039B00768C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68CDBF52252039B00768C9E /* Assets.xcassets */; };
@@ -28,7 +28,7 @@
 		BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.debug.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E62733A72261EF4700F4F7DB /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
-		E62733AA2261F5D000F4F7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ViewController.swift; sourceTree = "<group>"; };
+		E664B7992276F55300BD259E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E68CDBEB2252039900768C9E /* GitHub Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68CDBEE2252039900768C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E68CDBF32252039900768C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E68CDBEE2252039900768C9E /* AppDelegate.swift */,
-				E62733A92261F5D000F4F7DB /* ViewController.swift */,
+				E664B7992276F55300BD259E /* ViewController.swift */,
 				AC8F42102276EFAC00CD3505 /* SecondViewController.swift */,
 				AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */,
 				E62733A72261EF4700F4F7DB /* Pods.swift */,
@@ -201,10 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62733AB2261F5D000F4F7DB /* ViewController.swift in Sources */,
 				E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */,
 				E6F8651C2260989000FED13C /* Character Class.swift in Sources */,
 				AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */,
+				E664B79A2276F55300BD259E /* ViewController.swift in Sources */,
 				AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */,
 				E62733A82261EF4700F4F7DB /* Pods.swift in Sources */,
 			);
@@ -213,14 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E62733A92261F5D000F4F7DB /* ViewController.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E62733AA2261F5D000F4F7DB /* Base */,
-			);
-			name = ViewController.swift;
-			sourceTree = "<group>";
-		};
 		E68CDBF22252039900768C9E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
