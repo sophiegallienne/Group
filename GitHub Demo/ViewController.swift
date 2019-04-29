@@ -3,6 +3,8 @@ import Firebase
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var Question: UILabel!
+    
     struct Question {
         var Question: String!
         var Answer :[String]
