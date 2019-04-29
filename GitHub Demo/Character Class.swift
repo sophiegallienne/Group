@@ -1,4 +1,6 @@
 import Foundation
+import Firebase
+import UIKit
 
 class Characters {
     
