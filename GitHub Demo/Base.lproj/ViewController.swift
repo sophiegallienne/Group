@@ -4,7 +4,6 @@ import Firebase
 class ViewController: UIViewController {
     
     
-    
     struct Question {
         var Question: String!
         var Answer :[String]
@@ -26,6 +25,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is ThirdViewController {
+            //its a third view controller
+        }
+        if let vc = segue.destination as? SecondViewController {
+            //its a second view controller
+            vc.annotation = sender as? CustomAnnotation
+        }
     }
     
 }
