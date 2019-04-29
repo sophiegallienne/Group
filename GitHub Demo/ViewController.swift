@@ -4,6 +4,8 @@ import Firebase
 class ViewController: UIViewController {
     
     @IBOutlet weak var Question: UILabel!
+    @IBOutlet weak var choiceOne: UIButton!
+    @IBOutlet weak var choiceTwo: UIButton!
     
     struct Question {
         var Question: String!
