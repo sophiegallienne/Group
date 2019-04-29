@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		620FF2328C64263A8F23EED8 /* Pods_GitHub_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */; };
+		AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42102276EFAC00CD3505 /* SecondViewController.swift */; };
+		AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */; };
 		E62733A62261EEF300F4F7DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */; };
 		E62733A82261EF4700F4F7DB /* Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62733A72261EF4700F4F7DB /* Pods.swift */; };
 		E62733AB2261F5D000F4F7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62733A92261F5D000F4F7DB /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.release.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.release.xcconfig"; sourceTree = "<group>"; };
+		AC8F42102276EFAC00CD3505 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.debug.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E62733A72261EF4700F4F7DB /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 			children = (
 				E68CDBEE2252039900768C9E /* AppDelegate.swift */,
 				E62733A92261F5D000F4F7DB /* ViewController.swift */,
+				AC8F42102276EFAC00CD3505 /* SecondViewController.swift */,
+				AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */,
 				E62733A72261EF4700F4F7DB /* Pods.swift */,
 				E6F8651B2260989000FED13C /* Character Class.swift */,
 				E68CDBF22252039900768C9E /* Main.storyboard */,
@@ -198,6 +204,8 @@
 				E62733AB2261F5D000F4F7DB /* ViewController.swift in Sources */,
 				E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */,
 				E6F8651C2260989000FED13C /* Character Class.swift in Sources */,
+				AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */,
+				AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */,
 				E62733A82261EF4700F4F7DB /* Pods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
