@@ -1,16 +1,16 @@
 import UIKit
 
-protocol FourthViewControllerDelegate {
+protocol EndScreenViewControllerDelegate {
     
 }
 
-class FourthViewController: UIViewController {
+class EndScreenViewController: UIViewController {
     
     @IBOutlet weak var Background: UIImageView!
     @IBOutlet weak var Label: UILabel!
     
     
-    var delegate: FourthViewControllerDelegate?
+    var delegate: EndScreenViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()

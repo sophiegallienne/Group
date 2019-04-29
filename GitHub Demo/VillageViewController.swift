@@ -1,11 +1,11 @@
 import UIKit
 import Firebase
 
-protocol ThirdViewControllerDelegate {
+protocol VillageViewControllerDelegate {
     
 }
 
-class ThirdViewController: UIViewController {
+class VillageViewController: UIViewController {
     
     @IBOutlet weak var Background: UIImageView!
     @IBOutlet weak var starterCharacter: UIImageView!
@@ -16,7 +16,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var choiceTwo: UIButton!
     
     
-    var delegate: ThirdViewControllerDelegate?
+    var delegate: VillageViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()

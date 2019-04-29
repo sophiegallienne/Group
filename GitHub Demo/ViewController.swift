@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         var Question = [Question]()
         
         //lowri pls fill in this bit with the narrative bits (this will fix the error)
-        Question = [Question(""), Answers: "", "", Answer: ""]
+        Question = [Question("Which path will you take? Village or Dungeon"), Answers: "Village", Answer: "Dungeon"]
         
 
         super.didReciveMemoryWarning()

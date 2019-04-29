@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BB966422276F9DE002ADE88 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB966412276F9DE002ADE88 /* FourthViewController.swift */; };
+		3BB966422276F9DE002ADE88 /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */; };
 		620FF2328C64263A8F23EED8 /* Pods_GitHub_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */; };
-		AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42102276EFAC00CD3505 /* SecondViewController.swift */; };
-		AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */; };
+		AC8F42112276EFAC00CD3505 /* DungeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42102276EFAC00CD3505 /* DungeonViewController.swift */; };
+		AC8F42132276EFBD00CD3505 /* VillageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42122276EFBD00CD3505 /* VillageViewController.swift */; };
 		E62733A62261EEF300F4F7DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */; };
 		E62733A82261EF4700F4F7DB /* Pods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62733A72261EF4700F4F7DB /* Pods.swift */; };
 		E664B79A2276F55300BD259E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664B7992276F55300BD259E /* ViewController.swift */; };
@@ -21,11 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BB966412276F9DE002ADE88 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
 		6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.release.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.release.xcconfig"; sourceTree = "<group>"; };
-		AC8F42102276EFAC00CD3505 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AC8F42102276EFAC00CD3505 /* DungeonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonViewController.swift; sourceTree = "<group>"; };
+		AC8F42122276EFBD00CD3505 /* VillageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillageViewController.swift; sourceTree = "<group>"; };
 		BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.debug.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E62733A72261EF4700F4F7DB /* Pods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pods.swift; sourceTree = "<group>"; };
@@ -90,9 +90,9 @@
 			children = (
 				E68CDBEE2252039900768C9E /* AppDelegate.swift */,
 				E664B7992276F55300BD259E /* ViewController.swift */,
-				AC8F42102276EFAC00CD3505 /* SecondViewController.swift */,
-				AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */,
-				3BB966412276F9DE002ADE88 /* FourthViewController.swift */,
+				AC8F42102276EFAC00CD3505 /* DungeonViewController.swift */,
+				AC8F42122276EFBD00CD3505 /* VillageViewController.swift */,
+				3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */,
 				E62733A72261EF4700F4F7DB /* Pods.swift */,
 				E68CDBF22252039900768C9E /* Main.storyboard */,
 				E68CDBF52252039B00768C9E /* Assets.xcassets */,
@@ -201,11 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB966422276F9DE002ADE88 /* FourthViewController.swift in Sources */,
+				3BB966422276F9DE002ADE88 /* EndScreenViewController.swift in Sources */,
 				E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */,
-				AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */,
+				AC8F42112276EFAC00CD3505 /* DungeonViewController.swift in Sources */,
 				E664B79A2276F55300BD259E /* ViewController.swift in Sources */,
-				AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */,
+				AC8F42132276EFBD00CD3505 /* VillageViewController.swift in Sources */,
 				E62733A82261EF4700F4F7DB /* Pods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

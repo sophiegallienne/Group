@@ -1,11 +1,11 @@
 import UIKit
 import Firebase
 
-protocol SecondViewControllerDelegate {
+protocol DungeonViewControllerDelegate {
     
 }
 
-class SecondViewController: UIViewController {
+class DungeonViewController: UIViewController {
     
     @IBOutlet weak var Dungeon: UIImageView!
     @IBOutlet weak var starterCharacter: UIImageView!
@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var choiceOne: UIButton!
     @IBOutlet weak var choiceTwo: UIButton!
     
-    var delegate: SecondViewControllerDelegate?
+    var delegate: DungeonViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
