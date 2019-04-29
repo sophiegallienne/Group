@@ -25,6 +25,26 @@
                                 <rect key="frame" x="122" y="303" width="130" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-fE-Kfu">
+                                <rect key="frame" x="122" y="463" width="130" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rfR-wp-YGz" kind="show" id="hLp-py-A9E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5J-lR-J4p">
+                                <rect key="frame" x="122" y="521" width="130" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VES-en-dKT" kind="show" id="VxD-D5-WYd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,13 +62,19 @@
                     <view key="view" contentMode="scaleToFill" id="XVs-Oe-ag7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dungon" translatesAutoresizingMaskIntoConstraints="NO" id="Odp-wf-vBV">
+                                <rect key="frame" x="-34" y="-138" width="446" height="805"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EHJ-ID-hUc"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBU-Aq-1KG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1769" y="-80"/>
+            <point key="canvasLocation" x="1768.8" y="-80.50974512743629"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Agn-Hh-Ybn">
@@ -57,13 +83,19 @@
                     <view key="view" contentMode="scaleToFill" id="lBN-Nv-fA9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Village" translatesAutoresizingMaskIntoConstraints="NO" id="kH3-8f-dhm">
+                                <rect key="frame" x="-28" y="-62" width="435" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="U5E-sG-Cai"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pet-m6-nte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1769" y="631"/>
+            <point key="canvasLocation" x="1768.8" y="630.13493253373315"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Kcc-WR-srV">
@@ -85,7 +117,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Dungon" width="806" height="1382"/>
         <image name="Pixel Butterfly OPV2" width="1125" height="2436"/>
+        <image name="Village" width="794" height="1276"/>
         <image name="starterCharacter" width="454" height="564"/>
     </resources>
 </document>
