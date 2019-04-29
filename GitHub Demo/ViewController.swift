@@ -39,3 +39,7 @@ extension ViewController: SecondViewControllerDelegate {
 extension ViewController: ThirdViewControllerDelegate {
     
 }
+
+extension ViewController: FourthViewControllerDelegate {
+    
+}
