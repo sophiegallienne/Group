@@ -39,3 +39,16 @@ extension ViewController: SecondViewControllerDelegate {
 extension ViewController: ThirdViewControllerDelegate {
     
 }
+
+
+
+
+
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "ViewController"
+    { viewController = segue.destination as! SecondViewController }
+}
+performSegue(withIdentifier: "ViewController", sender: nil)
+
+dismiss(animated: true, completion: nil)
+
