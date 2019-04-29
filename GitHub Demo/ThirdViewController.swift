@@ -1,18 +1,20 @@
-//
-//  ThirdViewController.swift
-//  GitHub Demo
-//
-//  Created by Lowri Hughes (s5112822) on 29/04/2019.
-//  Copyright © 2019 Sophie Gallienne. All rights reserved.
-//
-
 import UIKit
+import Firebase
 
 protocol ThirdViewControllerDelegate {
     
 }
 
 class ThirdViewController: UIViewController {
+    
+    @IBOutlet weak var Background: UIImageView!
+    @IBOutlet weak var starterCharacter: UIImageView!
+    @IBOutlet weak var mageCharacter: UIImageView!
+    
+    @IBOutlet weak var Question: UILabel!
+    @IBOutlet weak var ChoiceOne: UIButton!
+    @IBOutlet weak var choiceTwo: UIButton!
+    
     
     var delegate: ThirdViewControllerDelegate?
     

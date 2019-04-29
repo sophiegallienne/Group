@@ -61,9 +61,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="diD-sH-PJQ"/>
                     <connections>
+                        <outlet property="Background" destination="5jR-YH-VUK" id="wGy-Kw-PeZ"/>
                         <outlet property="Question" destination="9my-RI-15b" id="jOU-tg-ojo"/>
                         <outlet property="choiceOne" destination="yZw-fE-Kfu" id="9Va-Id-E2I"/>
                         <outlet property="choiceTwo" destination="I5J-lR-J4p" id="BEx-fr-mov"/>
+                        <outlet property="starterCharacter" destination="hfT-l5-Dw0" id="OjA-pG-GL3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -121,9 +123,11 @@
                     </view>
                     <connections>
                         <outlet property="Dungeon" destination="Odp-wf-vBV" id="XKt-5N-5fO"/>
+                        <outlet property="Helper" destination="Efo-zq-S5B" id="Tth-FP-0t8"/>
                         <outlet property="Question" destination="57T-Ar-2dq" id="OIM-UR-vWP"/>
                         <outlet property="choiceOne" destination="Efk-2o-sC1" id="Zcw-o3-My7"/>
                         <outlet property="choiceTwo" destination="dG4-GJ-DbG" id="Vyz-3p-kvI"/>
+                        <outlet property="starterCharacter" destination="IQg-Ls-qrb" id="pVG-fe-G8V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBU-Aq-1KG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -179,6 +183,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="U5E-sG-Cai"/>
                     </view>
+                    <connections>
+                        <outlet property="Background" destination="kH3-8f-dhm" id="ymy-5r-fHK"/>
+                        <outlet property="ChoiceOne" destination="NkY-wn-iIx" id="nao-z9-OVo"/>
+                        <outlet property="Question" destination="Yel-Hs-4Xw" id="KWd-54-01v"/>
+                        <outlet property="choiceTwo" destination="4dX-wC-4S8" id="j52-be-d0l"/>
+                        <outlet property="mageCharacter" destination="FJy-Cp-H5o" id="iBD-78-fUF"/>
+                        <outlet property="starterCharacter" destination="mNR-R6-lsI" id="pfK-sn-VZB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pet-m6-nte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
