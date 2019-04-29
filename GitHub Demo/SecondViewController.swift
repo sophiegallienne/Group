@@ -1,9 +1,10 @@
-//
-//  SecondViewController.swift
-//  GitHub Demo
-//
-//  Created by Lowri Hughes (s5112822) on 29/04/2019.
-//  Copyright © 2019 Sophie Gallienne. All rights reserved.
-//
-
 import Foundation
+
+
+extension ViewController: SecondViewController {
+    
+    func mapView(_mapView:MKMapView, didSelect view: MKAnnotationView) {
+        let annotation = view.annotation as! CustomAnnotation
+        performSegue(withIdentifier: "Next", sender: annotation)
+}
+}
