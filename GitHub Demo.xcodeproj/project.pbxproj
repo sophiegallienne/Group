@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB966422276F9DE002ADE88 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB966412276F9DE002ADE88 /* FourthViewController.swift */; };
 		620FF2328C64263A8F23EED8 /* Pods_GitHub_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */; };
 		AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42102276EFAC00CD3505 /* SecondViewController.swift */; };
 		AC8F42132276EFBD00CD3505 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BB966412276F9DE002ADE88 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.release.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.release.xcconfig"; sourceTree = "<group>"; };
 		AC8F42102276EFAC00CD3505 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				E664B7992276F55300BD259E /* ViewController.swift */,
 				AC8F42102276EFAC00CD3505 /* SecondViewController.swift */,
 				AC8F42122276EFBD00CD3505 /* ThirdViewController.swift */,
+				3BB966412276F9DE002ADE88 /* FourthViewController.swift */,
 				E62733A72261EF4700F4F7DB /* Pods.swift */,
 				E68CDBF22252039900768C9E /* Main.storyboard */,
 				E68CDBF52252039B00768C9E /* Assets.xcassets */,
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB966422276F9DE002ADE88 /* FourthViewController.swift in Sources */,
 				E68CDBEF2252039900768C9E /* AppDelegate.swift in Sources */,
 				AC8F42112276EFAC00CD3505 /* SecondViewController.swift in Sources */,
 				E664B79A2276F55300BD259E /* ViewController.swift in Sources */,

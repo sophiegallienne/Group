@@ -3,6 +3,10 @@ import Firebase
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var Background: UIImageView!
+    @IBOutlet weak var starterCharacter: UIImageView!
+    
+    
     @IBOutlet weak var Question: UILabel!
     @IBOutlet weak var choiceOne: UIButton!
     @IBOutlet weak var choiceTwo: UIButton!
@@ -37,5 +41,9 @@ extension ViewController: SecondViewControllerDelegate {
 }
 
 extension ViewController: ThirdViewControllerDelegate {
+    
+}
+
+extension ViewController: FourthViewControllerDelegate {
     
 }
