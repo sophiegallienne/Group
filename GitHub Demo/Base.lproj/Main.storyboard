@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rl8-k8-mSH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rl8-k8-mSH">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -62,9 +62,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="diD-sH-PJQ"/>
                     <connections>
+                        <outlet property="Background" destination="5jR-YH-VUK" id="wGy-Kw-PeZ"/>
                         <outlet property="Question" destination="9my-RI-15b" id="jOU-tg-ojo"/>
                         <outlet property="choiceOne" destination="yZw-fE-Kfu" id="9Va-Id-E2I"/>
                         <outlet property="choiceTwo" destination="I5J-lR-J4p" id="BEx-fr-mov"/>
+                        <outlet property="starterCharacter" destination="hfT-l5-Dw0" id="OjA-pG-GL3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -122,14 +124,48 @@
                     </view>
                     <connections>
                         <outlet property="Dungeon" destination="Odp-wf-vBV" id="XKt-5N-5fO"/>
+                        <outlet property="Helper" destination="Efo-zq-S5B" id="Tth-FP-0t8"/>
                         <outlet property="Question" destination="57T-Ar-2dq" id="OIM-UR-vWP"/>
                         <outlet property="choiceOne" destination="Efk-2o-sC1" id="Zcw-o3-My7"/>
                         <outlet property="choiceTwo" destination="dG4-GJ-DbG" id="Vyz-3p-kvI"/>
+                        <outlet property="starterCharacter" destination="IQg-Ls-qrb" id="pVG-fe-G8V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBU-Aq-1KG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1768.8" y="-80.50974512743629"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="gCV-Ox-bwL">
+            <objects>
+                <viewController id="uuL-Fr-HCY" customClass="FourthViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lfe-ah-gzX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dungon" translatesAutoresizingMaskIntoConstraints="NO" id="TPQ-89-9vc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oj8-Ma-qxB">
+                                <rect key="frame" x="35" y="500" width="304" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wce-h3-4E2"/>
+                    </view>
+                    <connections>
+                        <outlet property="Background" destination="TPQ-89-9vc" id="cl4-SA-8TF"/>
+                        <outlet property="Label" destination="Oj8-Ma-qxB" id="f8x-d2-YtH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egj-i6-uS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3095.1999999999998" y="271.21439280359823"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="Agn-Hh-Ybn">
@@ -180,6 +216,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="U5E-sG-Cai"/>
                     </view>
+                    <connections>
+                        <outlet property="Background" destination="kH3-8f-dhm" id="ymy-5r-fHK"/>
+                        <outlet property="ChoiceOne" destination="NkY-wn-iIx" id="nao-z9-OVo"/>
+                        <outlet property="Question" destination="Yel-Hs-4Xw" id="KWd-54-01v"/>
+                        <outlet property="choiceTwo" destination="4dX-wC-4S8" id="j52-be-d0l"/>
+                        <outlet property="mageCharacter" destination="FJy-Cp-H5o" id="iBD-78-fUF"/>
+                        <outlet property="starterCharacter" destination="mNR-R6-lsI" id="pfK-sn-VZB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pet-m6-nte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,10 +249,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Dungon" width="403" height="691"/>
-        <image name="Helper" width="374" height="669"/>
+        <image name="Dungon" width="806" height="1382"/>
+        <image name="Helper" width="748" height="1338"/>
         <image name="Pixel Butterfly OPV2" width="1125" height="2436"/>
-        <image name="Village" width="397" height="638"/>
+        <image name="Village" width="794" height="1276"/>
         <image name="mageCharacter" width="454" height="564"/>
         <image name="starterCharacter" width="454" height="564"/>
     </resources>
