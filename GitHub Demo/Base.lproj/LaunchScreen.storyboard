@@ -17,12 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pixel Butterfly OPV2" translatesAutoresizingMaskIntoConstraints="NO" id="vNi-HS-8Xv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pixel Butterfly" translatesAutoresizingMaskIntoConstraints="NO" id="8Ir-62-dcd">
+                                <rect key="frame" x="-2" y="197" width="377" height="158"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.050244578339999998" green="0.80781562579999999" blue="0.98478037119999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="8Ir-62-dcd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="177" id="DnR-gb-NhR"/>
+                            <constraint firstAttribute="trailing" secondItem="8Ir-62-dcd" secondAttribute="trailing" id="UTB-m6-ETa"/>
+                            <constraint firstItem="8Ir-62-dcd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-18" id="uCf-am-bTW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Ir-62-dcd" secondAttribute="bottom" constant="312" id="xAl-RD-ALl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -32,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pixel Butterfly OPV2" width="1125" height="2436"/>
+        <image name="Pixel Butterfly" width="483.83999633789062" height="152.63999938964844"/>
     </resources>
 </document>
