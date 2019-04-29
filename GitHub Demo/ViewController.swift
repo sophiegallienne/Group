@@ -10,8 +10,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Question: UILabel!
     @IBOutlet weak var choiceOne: UIButton!
     @IBOutlet weak var choiceTwo: UIButton!
-        
-    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,25 +20,15 @@ class ViewController: UIViewController {
 
     }
 
-extension ViewController: SecondViewControllerDelegate {
+extension ViewController: DungeonViewControllerDelegate {
     
 }
 
-extension ViewController: ThirdViewControllerDelegate {
+extension ViewController: VillageViewControllerDelegate {
     
 }
 
 
-override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if segue.identifier == "ViewController"
-    { viewController = segue.destination as! SecondViewController }
-}
-performSegue(withIdentifier: "ViewController", sender: nil)
 
-dismiss(animated: true, completion: nil)
-
-
-extension ViewController: FourthViewControllerDelegate {
-    
     
 }
