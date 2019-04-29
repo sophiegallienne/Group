@@ -49,17 +49,17 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: SecondViewControllerDelegate {
+extension ViewController: DungeonViewControllerDelegate {
     
 }
 
-extension ViewController: ThirdViewControllerDelegate {
+extension ViewController: VillageViewControllerDelegate {
     
 }
 
 
 
 
-extension ViewController: FourthViewControllerDelegate {
+extension ViewController: EndScreenViewControllerDelegate {
     
 }
