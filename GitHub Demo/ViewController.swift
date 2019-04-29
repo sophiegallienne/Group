@@ -21,9 +21,8 @@ class ViewController: UIViewController {
         //lowri pls fill in this bit with the narrative bits (this will fix the error)
         Question = [Question(""), Answers: "", "", Answer: ""]
         
-
+        override func didReciveMemoryWarning(){
         super.didReciveMemoryWarning()
-        
         func PickQuestion()
         
     }
