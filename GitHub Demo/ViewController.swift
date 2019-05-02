@@ -37,4 +37,7 @@ extension ViewController: VillageViewControllerDelegate {
 extension ViewController: EndScreenViewControllerDelegate {
     
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6fc74c71d6bc67380813931cce860ecbdfebc936
