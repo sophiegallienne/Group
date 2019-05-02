@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 305fa9af10aa2e83d3bb04efbb38da5c55305ff5
+PODS:
+  - Lightning (3.0.0)
 
-COCOAPODS: 1.6.1
+DEPENDENCIES:
+  - Lightning
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Lightning
+
+SPEC CHECKSUMS:
+  Lightning: e0dfb0df0fe98287d22ded24be42f183c49d53f0
+
+PODFILE CHECKSUM: ce971ad4ebfd08265b810fd1f0868a85d842bc50
+
+COCOAPODS: 1.5.3

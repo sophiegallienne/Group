@@ -18,9 +18,11 @@
 
 /* Begin PBXFileReference section */
 		3BB966412276F9DE002ADE88 /* EndScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
+		3EFB3A26AEAF6F325941A09A /* Pods-GitHub Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		6C0AE8394AC486429597BEE2 /* Pods_GitHub_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.release.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.debug.xcconfig"; path = "Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		C73031CB9F2369E2920060D5 /* Pods-GitHub Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo.release.xcconfig"; sourceTree = "<group>"; };
 		E62733A52261EEF300F4F7DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "/Downloads/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
 		E664B7992276F55300BD259E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E68CDBEB2252039900768C9E /* GitHub Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,8 @@
 			children = (
 				BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */,
 				79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */,
+				3EFB3A26AEAF6F325941A09A /* Pods-GitHub Demo.debug.xcconfig */,
+				C73031CB9F2369E2920060D5 /* Pods-GitHub Demo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -110,6 +114,7 @@
 				E68CDBE72252039900768C9E /* Sources */,
 				E68CDBE82252039900768C9E /* Frameworks */,
 				E68CDBE92252039900768C9E /* Resources */,
+				7E71A22E44288D70813AC2C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +193,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E71A22E44288D70813AC2C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Lightning/Lightning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHub Demo/Pods-GitHub Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -342,7 +369,7 @@
 		};
 		E68CDBFE2252039B00768C9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEB81BAB408AF42D10944082 /* Pods-GitHub Demo.debug.xcconfig */;
+			baseConfigurationReference = 3EFB3A26AEAF6F325941A09A /* Pods-GitHub Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -361,7 +388,7 @@
 		};
 		E68CDBFF2252039B00768C9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79AC9E244B44D8796E500026 /* Pods-GitHub Demo.release.xcconfig */;
+			baseConfigurationReference = C73031CB9F2369E2920060D5 /* Pods-GitHub Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
